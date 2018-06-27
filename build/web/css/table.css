@@ -1,0 +1,149 @@
+
+nav {
+    margin: 0 auto 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+a:nth-child(1) {
+    width: 11.1111111%;
+}
+a:nth-child(2) {
+    width: 11.1111111%;
+}
+a:nth-child(3) {
+    width: 11.1111111%;
+}
+a:nth-child(4) {
+    width: 11.1111111%;
+}
+a:nth-child(5) {
+    width: 11.1111111%;
+}
+a:nth-child(6) {
+    width: 11.1111111%;
+}a:nth-child(7) {
+    width: 11.1111111%;
+}
+a:nth-child(8) {
+    width: 11.1111111%;
+}
+a:nth-child(9) {
+    width: 11.1111111%;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+    width: 11.1111111%;
+    left: 0;
+    background-color: #1abc9c;
+}
+nav .start-backend, a:nth-child(2):hover~.animation {
+    width: 11.1111111%;
+    left: 11.1111111%;
+    background-color: #e74c3c;
+}
+nav .start-buzz, a:nth-child(3):hover~.animation {
+    width: 11.1111111%;
+    left: 22.2222222%;
+    background-color: #3498db;
+}
+nav .start-chat, a:nth-child(4):hover~.animation {
+    width: 11.1111111%;
+    left: 33.3333333%;
+    background-color: #9b59b6;
+}
+nav .start-jpns, a:nth-child(5):hover~.animation {
+    width: 11.1111111%;
+    left: 44.4444444%;
+    background-color: #e67e22;
+}
+nav .start-meet, a:nth-child(6):hover~.animation {
+    width: 11.1111111%;
+    left: 55.5555555%;
+    background-color: #1abc9c;
+}
+nav .start-stf, a:nth-child(7):hover~.animation {
+    width: 11.1111111%;
+    left: 66.6666666%;
+    background-color: #e74c3c;
+}
+nav .start-ums, a:nth-child(8):hover~.animation {
+    width: 11.1111111%;
+    left: 77.7777777%;
+    background-color: #3498db;
+}
+nav .start-ums123, a:nth-child(9):hover~.animation {
+    width: 11.1111111%;
+    left: 88.8888888%;
+    background-color: #9b59b6;
+}
+
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #2c3e50;
+}
+h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+
+span {
+    color: #2BD6B4;
+}
+textarea{  
+    /* box-sizing: padding-box; */
+    overflow:hidden;
+    /* demo only: */
+    padding:10px;
+    width:100%;
+    height: 100%;
+    font-size:14px;
+    margin:50px auto;
+    display:block;
+    border-radius:10px;
+    border:6px solid #556677;
+}
+
